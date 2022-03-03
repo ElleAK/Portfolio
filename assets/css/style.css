@@ -3,40 +3,122 @@
     padding: 0;
 }
 
+a:link {
+    text-decoration: none;
+  }
+
 body {
+    margin-left: 130px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     background-color: azure;
 }
 
 header {
-    padding: 30px 20px;
+    padding: 20px;
     background-color:#a9a9a9;
     text-align: center;
     text-decoration: none;
 }
 
 header h1 {
-    color: indigo;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(30, 12, 78);
+    padding: 35px;
 }
 
 h2 {
-    color: maroon ;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: midnightblue ;
+    padding: 15px 20px 0;
 }
 
 h3 {
+    font-family: 'Courier New', Courier, monospace;
     color: midnightblue;
+    padding: 20px;
 }
-header nav {
-    margin: 5px 3px
 
+header nav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding-top: 20%;
+    background-color: black;
+    color: azure;
+    z-index: 1;
+    overflow-x: hidden;
 }
 
 header nav ul {
-    align-items: center;
+    padding: 6px 8px 6px 16px;
+    align-items: right;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    display: block;
 }
 
+.about-me {
+    padding: 40px;
+    font-size: 20px;
+    border: 10px;
+    border-color: cornflowerblue;
+    
+}
+
+/*.my-work {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 40px;
+}*/
+
+.my-work h3 {
+
+}
+
+.run-buddy {
+    border: 3px solid black;
+    padding: 35px 40px;
+    background: rgba(100, 149, 235, 0.5);
+}
+
+.horiseon {
+    /*border: 3px dashed black;*/
+    padding: 35px 40px;
+    background: rgba(100, 149, 235, 0.5);
+
+    
+}
+
+.contact-me h2 {
+
+}
+.contact-me {
+    margin-top: 40px;
+    padding: 40px;
+    font-size: 15px;
+    border: 3px;
+    
+}
+
+.contact-me ul li {
+    justify-content: space-around;
+    list-style: none;
+    display: inline;
+}
+
+footer {
+    background-color: #a9a9a9;
+    text-align: center;
+    padding: 40px;
+}
