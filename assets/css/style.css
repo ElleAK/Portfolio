@@ -88,12 +88,8 @@ header nav ul li {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 50%;
+}
 
-}
-/*.my-work img{
-    max-height: fit-content;
-    max-width: 50%;*/
-}
 .my-work h2 {
     text-align: left;
 }
@@ -101,36 +97,11 @@ header nav ul li {
 .work-image img {
     display: inline-block;
     max-height: fit-content;
-    max-width: 60%
+    max-width: 60%;
+    margin: 30px;
     
 }
 
-
-/*.run-buddy {
-    padding: 20px;
-    flex: 33.33%;
-    padding: 5px;
-    
-
-}
-.run-buddy img{
-    width: 50%;
-    height: 50%;
-
-}
-.horiseon {
-    padding: 20px;
-    flex: 33.33%;
-    padding: 5px;
-    
-
-
-}
-.horiseon img {
-    width: 50%;
-    height: 50%;
-
-}*/
 .contact-me h2 {
     margin-top: 50px;
 }
@@ -173,6 +144,7 @@ img:hover {
         width: 100%;
         text-align: center;
         padding: 15px;
+        font-size: 20px;
     }
       
     header nav ul {
@@ -191,11 +163,10 @@ img:hover {
         
     .about-me {
         text-align: center;
-        font-size: 12px;
-    }
-    .my-work, .my-work h2{
-        width: 100%;
         font-size: 20px;
+    }
+    .my-work {
+        width: 100%;
         align-content: center;
     }
 }
